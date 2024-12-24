@@ -18,4 +18,63 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="UserId"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="PassWord"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="173dp">
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        tools:layout_editor_absoluteX="388dp"
+        tools:layout_editor_absoluteY="73dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
